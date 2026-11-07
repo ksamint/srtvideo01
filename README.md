@@ -14,7 +14,7 @@ Agent-readable video briefs, edit plans, and publicly hosted subtitle files.
 After pushing, use a raw HTTPS URL (the GitHub file-view page is not a subtitle URL):
 
 ```
-https://raw.githubusercontent.com/ksamint/srtvideo01/main/videos/restaurant-checkin-demo/subtitles/restaurant-checkin-demo__overlay__zh-cn__v001.ass
+https://raw.githubusercontent.com/ksamint/srtvideo01/main/videos/restaurant-checkin-demo/subtitles/restaurant-checkin-demo__overlay__zh-cn__v002.ass
 ```
 
 For reproducible rendering, replace `main` with the full commit SHA. Fetch the URL without authentication and confirm it returns subtitle text before submitting it to a render tool. The tool must support ASS styling; SRT carries timing and text but not these styles. Raw GitHub availability to a particular provider must be tested there.
