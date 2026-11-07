@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "video_id": "restaurant-checkin-demo",
+  "title": "探店打卡字幕",
+  "status": "draft",
+  "language": "zh-cn",
+  "target": {
+    "duration_seconds": 30,
+    "width": 720,
+    "height": 1280
+  },
+  "source": null,
+  "subtitles": [
+    {
+      "role": "overlay",
+      "format": "ass",
+      "language": "zh-cn",
+      "version": "v001",
+      "path": "subtitles/restaurant-checkin-demo__overlay__zh-cn__v001.ass"
+    }
+  ],
+  "output": null
+}

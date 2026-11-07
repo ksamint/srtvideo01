@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "video_id": "replace-with-video-id",
+  "title": "",
+  "status": "draft",
+  "language": "zh-cn",
+  "target": {
+    "duration_seconds": 30,
+    "width": 720,
+    "height": 1280
+  },
+  "source": null,
+  "subtitles": [],
+  "output": null
+}
