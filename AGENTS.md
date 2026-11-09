@@ -1,5 +1,12 @@
 # Agent instructions
 
+<!-- ksamint-policy-pointer v1 -->
+> **Global agent policy:** this repository follows ksamint ADR-0000 (claudememo01 `global/AGENT-POLICY.md`):
+> TypeScript first, Rust first (no new JS) · no CI runners (no GitHub Actions, hosted or self-hosted) · validate locally on the
+> exact tree · the agent merges on green local validation · deploy directly from the local deploy machine with automatic
+> rollback · hard limits on shared infrastructure, secrets and product rules. Stricter safety rules below still apply.
+<!-- /ksamint-policy-pointer -->
+
 1. Read `docs/video-rules.md` before creating or editing video data.
 2. Select one `videos/<video-id>/` folder. Read `video.json`, `edit-plan.md`, and the referenced subtitles before planning an edit.
 3. Never invent available footage, brand permissions, source duration, fps, claims, music rights, or a finished render. Keep unknown metadata `null`; record missing inputs in the edit plan.
